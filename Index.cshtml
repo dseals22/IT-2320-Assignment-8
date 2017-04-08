@@ -1,0 +1,62 @@
+﻿@model FinalProject.Models.HomeViewModel
+
+<html>
+
+    <head>
+        <link href="~/Styles/Home.css" rel="stylesheet" />
+        <title>Final Project</title>
+    </head>
+
+    <body>
+        <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+        <script src="~/Scripts/jquery-ui.min.js"></script>
+        <script src="~/Scripts/Home.js"></script>
+        
+        <div class="intro">
+
+          <h1>Welcome to Cuyahoga Community College Student Services Online</h1>
+            <p>Cuyahoga Community College recognizes students' rights to access personal and academic records
+              in accordance with the Family Educational Rights and Privacy Act of 1974 (FERPA) as amended by Public Law 93-568.</p>
+        </div>
+        <br/>    
+
+        <div class="content">
+        <p id="para1">Already have an account with us? Returning users may log in by entering their site username and password. </p>
+            <div class="username-label">Username: </div>
+            <div class="username-textbox">
+                <input class="existing username-input-textbox" type="text" value="" />
+            </div>
+       
+            <div class="password-label">Password:</div>
+            <div class="password-textbox">
+                <input class="existing password-input-textbox" type="text" value="" />
+            </div>
+            <button id="button1">Log in</button>
+            <hr />
+
+            <p id="para2">New users, please create a new account by providing us with some basic information.</p>
+            <div class="Username-label1">Username: </div>
+            <div class="username-textbox1">
+                <input class="username-new-input-textbox" type="text" value="" />
+            </div>
+            <div class="Password-label2">Password:</div>
+            <div class="password-textbox2">
+                <input class="password-new-input-textbox" type="text" value="" />
+            </div>
+            <div class="Email-label3">Email:</div>
+            <div class="email-textbox3">
+                <input class="email-new-input-textbox" type="text" value="" />
+            </div>
+            <div class="Repeat-Email-label4">Repeat Email Address:</div>
+            <div class="repeat-email-textbox4">
+                <input class="reenter-new-input-textbox" type="text" value="" />
+            </div>
+            <button id="button2">Create Account</button>
+
+        </div>
+
+        <footer>Cuyahoga Community College</footer>
+        <footer>700 Carnegie Avenue, Cleveland, Ohio, 44115</footer>
+    </body>
+
+</html>

@@ -1,0 +1,36 @@
+﻿
+
+.intro h1{
+    font-family: 'Cambria';
+        font-size: 16pt; 
+        font: bold;
+        text-align: left;
+}
+
+.intro p{ 
+    
+    font-family: 'Calibri';  
+    font:italic;
+    font-size: 12pt; 
+    padding: 0px 690px 0px 20px;
+    text-align: left;
+
+}
+.content{ 
+    border: 2px solid; 
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px; 
+}
+#para1{
+    padding: 0px 1050px 0px 20px; 
+    
+}
+#para2{
+    padding: 0px 1099px 0px 20px;  
+}
+.username-label,.username-textbox, .password-label, .password-textbox{
+    margin: 0px 0px 0px 400px;
+}
+
+
